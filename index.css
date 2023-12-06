@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 40px;
+  width: 150px;
+}
+
+.border-black-button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: black;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 40px;
+  width: 150px;
+}
+
+.display-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name-card {
+  background-color: #fddddb;
+  height: 150px;
+  width: 300px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+}
